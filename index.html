@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <img src="images/Untitled-12.png" class="name">
+
+      <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+      <div class="parent">
+        <div class="child1">
+          <div class="horizontal-line"></div>
+          <a href="fun-facts.html"><h3>Fun facts</h3></a> 
+        </div>
+        <div class="child2">
+          <div class="horizontal-line"></div>
+          <a href="stats.html"><h3>Stats</h3></a>  
+        </div>
+        <div class="child3">
+          <div class="horizontal-line"></div>
+          <a href="favorites.html"><h3>Favorites</h3></a>
+        </div>
+        <div class="child4">
+          <div class="horizontal-line"></div>
+          <a href="least-favorites.html"><h3>Least favorites</h3></a>
+          <div class="horizontal-line"></div>
+        </div>
+      </div>
+    </div>
+
+<div class="image-container">
+  <img src="images/Untitled_Artwork 15.png" class="imageofme artwork">
+  <img src="images/eyesclosed.png" class="imageofme eyesclosed">
+</div>
+        
+        <script src="" async defer></script>
+
+        <script>
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.parent');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    menu.classList.toggle('active');
+});
+</script>
+    </body>
+</html>
